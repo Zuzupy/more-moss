@@ -28,7 +28,6 @@ public class MossBall extends Item {
             return ActionResult.FAIL;
         }
 
-
         if (world.isClient()) {
             Objects.requireNonNull(context.getPlayer()).playSound(SoundEvents.ITEM_BONE_MEAL_USE, 1.0f, 1.0f);
             MoreMoss.LOGGER.info("{} -> {}", block.toString(), convertTo.toString());
