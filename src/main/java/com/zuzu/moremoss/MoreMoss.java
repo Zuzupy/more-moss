@@ -1,6 +1,9 @@
 package com.zuzu.moremoss;
 
+import com.zuzu.moremoss.item.ModItems;
+import com.zuzu.moremoss.config.ConfigLoader;
 import net.fabricmc.api.ModInitializer;
+
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,6 +14,7 @@ public class MoreMoss implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ConfigLoader.loadConversions();
+		ModItems.registerModItems();
 	}
 }

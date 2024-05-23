@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:moss_block"
+    }
+  ],
+  "result": {
+    "item": "moremoss:moss_ball",
+    "count": 9
+  }
+}
