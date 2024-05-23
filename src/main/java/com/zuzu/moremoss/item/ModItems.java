@@ -2,7 +2,6 @@ package com.zuzu.moremoss.item;
 
 import com.zuzu.moremoss.MoreMoss;
 import com.zuzu.moremoss.moss_ball.MossBall;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;

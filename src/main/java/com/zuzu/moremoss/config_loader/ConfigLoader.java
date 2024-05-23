@@ -2,6 +2,7 @@ package com.zuzu.moremoss.config_loader;
 
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import com.zuzu.moremoss.MoreMoss;
 import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
 import net.minecraft.block.Block;
@@ -34,7 +35,7 @@ public class ConfigLoader {
             }
 
         } catch (IOException e) {
-            e.printStackTrace();
+            MoreMoss.LOGGER.error(e.toString());
         }
     }
 

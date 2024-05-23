@@ -30,7 +30,7 @@ public class MossBall extends Item {
 
         if (world.isClient()) {
             Objects.requireNonNull(context.getPlayer()).playSound(SoundEvents.ITEM_BONE_MEAL_USE, 1.0f, 1.0f);
-            MoreMoss.LOGGER.info("{} -> {}", block.toString(), convertTo.toString());
+            MoreMoss.LOGGER.info("{} -> {}", block.toString(), convertTo);
         } else {
             world.setBlockState(context.getBlockPos(), convertTo.getStateWithProperties(world.getBlockState(context.getBlockPos())));
             Objects.requireNonNull(context.getPlayer()).getStackInHand(context.getHand()).decrement(1);
