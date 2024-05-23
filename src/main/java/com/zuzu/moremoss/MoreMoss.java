@@ -1,7 +1,8 @@
 package com.zuzu.moremoss;
 
+import com.zuzu.moremoss.block.ModBlocks;
 import com.zuzu.moremoss.item.ModItems;
-import com.zuzu.moremoss.config.ConfigLoader;
+import com.zuzu.moremoss.config_loader.ConfigLoader;
 import net.fabricmc.api.ModInitializer;
 
 
@@ -14,7 +15,11 @@ public class MoreMoss implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		LOGGER.info("Starting initialization for More Moss - Zuzu");
+
 		ConfigLoader.loadConversions();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

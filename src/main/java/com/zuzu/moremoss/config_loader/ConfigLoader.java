@@ -1,4 +1,4 @@
-package com.zuzu.moremoss.config;
+package com.zuzu.moremoss.config_loader;
 
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
