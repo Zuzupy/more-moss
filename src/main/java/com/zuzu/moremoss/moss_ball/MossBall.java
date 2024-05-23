@@ -1,5 +1,6 @@
 package com.zuzu.moremoss.moss_ball;
 
+import com.zuzu.moremoss.MoreMoss;
 import com.zuzu.moremoss.config_loader.ConfigLoader;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.block.Block;
@@ -24,8 +25,10 @@ public class MossBall extends Item {
         Block convertTo = ConfigLoader.getConversion(block);
 
         if (convertTo == null) {
-            return super.useOnBlock(context);
+            return ActionResult.FAIL;
         }
+
+        MoreMoss.LOGGER.info("{} -> {}", block.toString(), convertTo.toString());
 
         if (world.isClient()) {
             Objects.requireNonNull(context.getPlayer()).playSound(SoundEvents.ITEM_BONE_MEAL_USE, 1.0f, 1.0f);

@@ -21,19 +21,18 @@ public class ConfigLoader {
                 throw new IOException("Resource not found: block_conversions.json");
             }
 
-            JsonObject json = JsonParser.parseReader(new InputStreamReader(inputStream)).getAsJsonObject();
+            JsonObject configuration = JsonParser.parseReader(new InputStreamReader(inputStream)).getAsJsonObject();
 
-            for (String key : json.keySet()) {
+            for (String key : configuration.keySet()) {
                 Identifier sourceId = new Identifier(key);
-                Identifier targetId = new Identifier(json.get(key).getAsString());
+                Identifier targetId = new Identifier(configuration.get(key).getAsString());
 
                 Block sourceBlock = Registries.BLOCK.get(sourceId);
                 Block targetBlock = Registries.BLOCK.get(targetId);
 
-                if (sourceBlock != null && targetBlock != null) {
-                    conversions.put(sourceBlock, targetBlock);
-                }
+                conversions.put(sourceBlock, targetBlock);
             }
+
         } catch (IOException e) {
             e.printStackTrace();
         }

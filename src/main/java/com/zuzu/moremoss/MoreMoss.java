@@ -17,9 +17,9 @@ public class MoreMoss implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Starting initialization for More Moss - Zuzu");
 
-		ConfigLoader.loadConversions();
-
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ConfigLoader.loadConversions();
 	}
 }
