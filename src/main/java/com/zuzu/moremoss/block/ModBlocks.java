@@ -7,6 +7,8 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.SlabBlock;
+import net.minecraft.block.WallBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -22,9 +24,19 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.COBBLED_DEEPSLATE))
     );
 
+    public static final Block MOSSY_COBBLED_DEEPSLATE_SLAB = registerBlock("mossy_cobbled_deepslate_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLED_DEEPSLATE_SLAB))
+    );
+
+    public static final Block MOSSY_COBBLED_DEEPSLATE_WALL = registerBlock("mossy_cobbled_deepslate_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.COBBLED_DEEPSLATE_WALL))
+    );
+
     private static void addBlocksToBuildingBlockItemGroup(FabricItemGroupEntries entries) {
         entries.add(MOSSY_DEEPSLATE);
         entries.add(MOSSY_COBBLED_DEEPSLATE);
+        entries.add(MOSSY_COBBLED_DEEPSLATE_SLAB);
+        entries.add(MOSSY_COBBLED_DEEPSLATE_WALL);
     }
 
     private static Block registerBlock(String name, Block block) {

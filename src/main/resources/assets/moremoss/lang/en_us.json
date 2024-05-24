@@ -1,5 +1,7 @@
 {
   "item.moremoss.moss_ball": "Moss Ball",
   "block.moremoss.mossy_deepslate": "Mossy Deepslate",
-  "block.moremoss.mossy_cobbled_deepslate": "Mossy Cobbled Deepslate"
+  "block.moremoss.mossy_cobbled_deepslate": "Mossy Cobbled Deepslate",
+  "block.moremoss.mossy_cobbled_deepslate_slab": "Mossy Cobbled Deepslate Slab",
+  "block.moremoss.mossy_cobbled_deepslate_wall": "Mossy Cobbled Deepslate Wall"
 }
