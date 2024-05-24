@@ -15,6 +15,10 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE))
     );
 
+    public static final Block MOSSY_COBBLED_DEEPSLATE = registerBlock("mossy_cobbled_deepslate",
+            new Block(FabricBlockSettings.copyOf(Blocks.COBBLED_DEEPSLATE))
+    );
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
 

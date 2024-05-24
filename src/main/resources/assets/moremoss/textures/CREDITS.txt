@@ -3,3 +3,4 @@ item/moss_ball.png
 
 Textures by Zuzu (Discord: @zuzudev / @GitHub: @zuzupy)
 block/mossy_deepslate.png (temp)
+block/mossy_cobbled_deepslate.png (temp)
