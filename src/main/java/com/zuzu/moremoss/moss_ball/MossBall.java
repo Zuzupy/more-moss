@@ -4,6 +4,7 @@ import com.zuzu.moremoss.config_loader.ConfigLoader;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
@@ -34,12 +35,15 @@ public class MossBall extends Item {
         return ActionResult.FAIL;
     }
 
-    public void dispenserUseOnBlock(BlockPointer pointer) {
+    public ItemStack dispenserUseOnBlock(BlockPointer pointer, ItemStack stack) {
         World world = pointer.world();
         BlockPos pos = pointer.pos().offset(world.getBlockState(pointer.pos()).get(Properties.FACING));
         Block block = world.getBlockState(pos).getBlock();
 
         useItem(world, block, pos);
+        stack.decrement(1);
+
+        return stack;
     }
 
     private static boolean useItem(World world, Block block, BlockPos pos) {

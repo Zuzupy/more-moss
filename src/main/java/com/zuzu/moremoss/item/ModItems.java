@@ -25,12 +25,7 @@ public class ModItems {
     public static void registerModItems() {
         MoreMoss.LOGGER.info("Registering ModItems for " + MoreMoss.MOD_ID);
 
-        DispenserBlock.registerBehavior(MOSS_BALL, (pointer, stack) -> {
-            MOSS_BALL.dispenserUseOnBlock(pointer);
-            stack.decrement(1);
-
-            return stack;
-        });
+        DispenserBlock.registerBehavior(MOSS_BALL, MOSS_BALL::dispenserUseOnBlock);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
     }
