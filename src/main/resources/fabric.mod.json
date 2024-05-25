@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "more-moss",
+	"id": "moremoss",
 	"version": "${version}",
 	"name": "More Moss",
 	"description": "Adds more mossy block variants for blocks such as deepslate, bricks, and wood!",

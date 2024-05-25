@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "moremoss:block/mossy_cobbled_deepslate_slab"
+    },
+    "type=double": {
+      "model": "moremoss:block/mossy_cobbled_deepslate"
+    },
+    "type=top": {
+      "model": "moremoss:block/mossy_cobbled_deepslate_slab_top"
+    }
+  }
+}
