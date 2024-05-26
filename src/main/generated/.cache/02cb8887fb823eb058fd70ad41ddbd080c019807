@@ -1,4 +1,4 @@
-// 1.20.4	2024-05-26T02:19:47.873564893	More Moss/Model Definitions
+// 1.20.4	2024-05-26T02:41:01.952875683	More Moss/Model Definitions
 f4228b93468733e87b2b7587485f7c3493a13294 assets/moremoss/models/block/mossy_cobbled_deepslate_slab_top.json
 8859bdb122f43cefedc62efa55476fa7fda0fa45 assets/moremoss/blockstates/mossy_cobbled_deepslate_wall.json
 1846e0cae1377d94b9e48cc1cc77690c66d80870 assets/moremoss/models/item/mossy_deepslate.json
@@ -19,5 +19,5 @@ ab36092bc6bc95b1d708d3d35627b44fb81c5d20 assets/moremoss/models/item/mossy_cobbl
 fa323a18a06718828963f5a06a9953b745bc7854 assets/moremoss/models/item/mossy_cobbled_deepslate_wall.json
 c868809e0e07cc52dba1bf460670d1330aab8471 assets/moremoss/models/block/mossy_cobbled_deepslate_stairs_inner.json
 15db3dd151ebfa5cb1c78f2028ce0df6e96a7ca1 assets/moremoss/blockstates/mossy_cobbled_deepslate_slab.json
-5ff175ad9c59af7c8c87188834063a9d5f30c5f6 assets/moremoss/blockstates/mossy_cobbled_deepslate_stairs.json
 ff4e0d6bccf27ddd8a48c209f76c2dd5b4b66c9f assets/moremoss/models/block/mossy_cobbled_deepslate_stairs_outer.json
+5ff175ad9c59af7c8c87188834063a9d5f30c5f6 assets/moremoss/blockstates/mossy_cobbled_deepslate_stairs.json

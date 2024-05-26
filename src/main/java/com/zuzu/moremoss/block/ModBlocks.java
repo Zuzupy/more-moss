@@ -38,6 +38,7 @@ public class ModBlocks {
         entries.add(MOSSY_COBBLED_DEEPSLATE);
         entries.add(MOSSY_COBBLED_DEEPSLATE_SLAB);
         entries.add(MOSSY_COBBLED_DEEPSLATE_WALL);
+        entries.add(MOSSY_COBBLED_DEEPSLATE_STAIRS);
     }
 
     private static Block registerBlock(String name, Block block) {
