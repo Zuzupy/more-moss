@@ -1,6 +1,6 @@
 package com.zuzu.moremoss.datagen;
 
-import com.zuzu.moremoss.block.ModBlocks;
+import com.zuzu.moremoss.item.ModItems;
 import com.zuzu.moremoss.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
