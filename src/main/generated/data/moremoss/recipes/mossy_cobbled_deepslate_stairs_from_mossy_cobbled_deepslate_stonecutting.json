@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "moremoss:mossy_cobbled_deepslate"
+  },
+  "result": "moremoss:mossy_cobbled_deepslate_stairs"
+}
