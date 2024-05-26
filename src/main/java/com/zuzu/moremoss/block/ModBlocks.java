@@ -25,12 +25,12 @@ public class ModBlocks {
             new SlabBlock(FabricBlockSettings.copyOf(MOSSY_COBBLED_DEEPSLATE))
     );
 
-    public static final Block MOSSY_COBBLED_DEEPSLATE_STAIRS = registerBlock("mossy_cobbled_deepslate_stairs",
-            new StairsBlock(ModBlocks.MOSSY_COBBLED_DEEPSLATE.getDefaultState(), FabricBlockSettings.copyOf(MOSSY_COBBLED_DEEPSLATE))
-    );
-
     public static final Block MOSSY_COBBLED_DEEPSLATE_WALL = registerBlock("mossy_cobbled_deepslate_wall",
             new WallBlock(FabricBlockSettings.copyOf(MOSSY_COBBLED_DEEPSLATE))
+    );
+
+    public static final Block MOSSY_COBBLED_DEEPSLATE_STAIRS = registerBlock("mossy_cobbled_deepslate_stairs",
+            new StairsBlock(ModBlocks.MOSSY_COBBLED_DEEPSLATE.getDefaultState(), FabricBlockSettings.copyOf(MOSSY_COBBLED_DEEPSLATE))
     );
 
     private static void addBlocksToBuildingBlockItemGroup(FabricItemGroupEntries entries) {
