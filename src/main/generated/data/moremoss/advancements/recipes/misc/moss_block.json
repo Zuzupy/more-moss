@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_moss_ball": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "moremoss:moss_ball"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:moss_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_moss_ball"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:moss_block"
+    ]
+  }
+}
