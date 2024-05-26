@@ -1,6 +1,0 @@
-// 1.20.4	2024-05-25T22:01:56.697412685	More Moss/Block Loot Tables
-4232d48acc54f13a06752123f68b5561e9099302 data/moremoss/loot_tables/blocks/mossy_cobbled_deepslate_slab.json
-74b5ba53d20f3bb6816c694360550ed6864819cf data/moremoss/loot_tables/blocks/mossy_cobbled_deepslate_stairs.json
-76db1acefb21a4324bd02e20177eaf288b30dd5b data/moremoss/loot_tables/blocks/mossy_cobbled_deepslate_wall.json
-4fba9669f4d8725a18d33fd773cd4f94c3ca4e85 data/moremoss/loot_tables/blocks/mossy_cobbled_deepslate.json
-d95273f9397059847d2794b844dce6fed651901d data/moremoss/loot_tables/blocks/mossy_deepslate.json
