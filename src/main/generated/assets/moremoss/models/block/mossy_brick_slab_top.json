@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "moremoss:block/mossy_bricks",
+    "side": "moremoss:block/mossy_bricks",
+    "top": "moremoss:block/mossy_bricks"
+  }
+}

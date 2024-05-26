@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "moremoss:mossy_cobbled_deepslate_stairs"
+    "moremoss:mossy_cobbled_deepslate_stairs",
+    "moremoss:mossy_brick_stair"
   ]
 }

@@ -15,20 +15,28 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
+        getOrCreateTagBuilder(BlockTags.STAIRS)
+                .add(ModBlocks.MOSSY_COBBLED_DEEPSLATE_STAIRS)
+                .add(ModBlocks.MOSSY_BRICK_STAIRS);
+
         getOrCreateTagBuilder(BlockTags.SLABS)
-                .add(ModBlocks.MOSSY_COBBLED_DEEPSLATE_SLAB);
+                .add(ModBlocks.MOSSY_COBBLED_DEEPSLATE_SLAB)
+                .add(ModBlocks.MOSSY_BRICK_SLAB);
 
         getOrCreateTagBuilder(BlockTags.WALLS)
-                .add(ModBlocks.MOSSY_COBBLED_DEEPSLATE_WALL);
-
-        getOrCreateTagBuilder(BlockTags.STAIRS)
-                .add(ModBlocks.MOSSY_COBBLED_DEEPSLATE_STAIRS);
+                .add(ModBlocks.MOSSY_COBBLED_DEEPSLATE_WALL)
+                .add(ModBlocks.MOSSY_BRICK_WALL);
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.MOSSY_DEEPSLATE)
                 .add(ModBlocks.MOSSY_COBBLED_DEEPSLATE)
+                .add(ModBlocks.MOSSY_COBBLED_DEEPSLATE_STAIRS)
                 .add(ModBlocks.MOSSY_COBBLED_DEEPSLATE_SLAB)
                 .add(ModBlocks.MOSSY_COBBLED_DEEPSLATE_WALL)
-                .add(ModBlocks.MOSSY_COBBLED_DEEPSLATE_STAIRS);
+
+                .add(ModBlocks.MOSSY_BRICKS)
+                .add(ModBlocks.MOSSY_BRICK_STAIRS)
+                .add(ModBlocks.MOSSY_BRICK_SLAB)
+                .add(ModBlocks.MOSSY_BRICK_WALL);
     }
 }

@@ -18,9 +18,14 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MOSSY_DEEPSLATE);
 
         BlockStateModelGenerator.BlockTexturePool mossy_cobbled_deepslate_pool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MOSSY_COBBLED_DEEPSLATE);
+        mossy_cobbled_deepslate_pool.stairs(ModBlocks.MOSSY_COBBLED_DEEPSLATE_STAIRS);
         mossy_cobbled_deepslate_pool.slab(ModBlocks.MOSSY_COBBLED_DEEPSLATE_SLAB);
         mossy_cobbled_deepslate_pool.wall(ModBlocks.MOSSY_COBBLED_DEEPSLATE_WALL);
-        mossy_cobbled_deepslate_pool.stairs(ModBlocks.MOSSY_COBBLED_DEEPSLATE_STAIRS);
+
+        BlockStateModelGenerator.BlockTexturePool mossy_bricks_pool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MOSSY_BRICKS);
+        mossy_bricks_pool.stairs(ModBlocks.MOSSY_BRICK_STAIRS);
+        mossy_bricks_pool.slab(ModBlocks.MOSSY_BRICK_SLAB);
+        mossy_bricks_pool.wall(ModBlocks.MOSSY_BRICK_WALL);
     }
 
     @Override

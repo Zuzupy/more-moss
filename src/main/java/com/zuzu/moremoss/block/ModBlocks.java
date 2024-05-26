@@ -21,6 +21,10 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.COBBLED_DEEPSLATE))
     );
 
+    public static final Block MOSSY_COBBLED_DEEPSLATE_STAIRS = registerBlock("mossy_cobbled_deepslate_stairs",
+            new StairsBlock(MOSSY_COBBLED_DEEPSLATE.getDefaultState(), FabricBlockSettings.copyOf(MOSSY_COBBLED_DEEPSLATE))
+    );
+
     public static final Block MOSSY_COBBLED_DEEPSLATE_SLAB = registerBlock("mossy_cobbled_deepslate_slab",
             new SlabBlock(FabricBlockSettings.copyOf(MOSSY_COBBLED_DEEPSLATE))
     );
@@ -29,16 +33,33 @@ public class ModBlocks {
             new WallBlock(FabricBlockSettings.copyOf(MOSSY_COBBLED_DEEPSLATE))
     );
 
-    public static final Block MOSSY_COBBLED_DEEPSLATE_STAIRS = registerBlock("mossy_cobbled_deepslate_stairs",
-            new StairsBlock(ModBlocks.MOSSY_COBBLED_DEEPSLATE.getDefaultState(), FabricBlockSettings.copyOf(MOSSY_COBBLED_DEEPSLATE))
+    public static final Block MOSSY_BRICKS = registerBlock("mossy_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.BRICKS))
+    );
+
+    public static final Block MOSSY_BRICK_STAIRS = registerBlock("mossy_brick_stair",
+            new StairsBlock(MOSSY_BRICKS.getDefaultState(), FabricBlockSettings.copyOf(MOSSY_BRICKS))
+    );
+
+    public static final Block MOSSY_BRICK_SLAB = registerBlock("mossy_brick_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(MOSSY_BRICKS))
+    );
+
+    public static final Block MOSSY_BRICK_WALL = registerBlock("mossy_brick_wall",
+            new WallBlock(FabricBlockSettings.copyOf(MOSSY_BRICKS))
     );
 
     private static void addBlocksToBuildingBlockItemGroup(FabricItemGroupEntries entries) {
         entries.add(MOSSY_DEEPSLATE);
         entries.add(MOSSY_COBBLED_DEEPSLATE);
+        entries.add(MOSSY_COBBLED_DEEPSLATE_STAIRS);
         entries.add(MOSSY_COBBLED_DEEPSLATE_SLAB);
         entries.add(MOSSY_COBBLED_DEEPSLATE_WALL);
-        entries.add(MOSSY_COBBLED_DEEPSLATE_STAIRS);
+
+        entries.add(MOSSY_BRICKS);
+        entries.add(MOSSY_BRICK_STAIRS);
+        entries.add(MOSSY_BRICK_SLAB);
+        entries.add(MOSSY_BRICK_WALL);
     }
 
     private static Block registerBlock(String name, Block block) {

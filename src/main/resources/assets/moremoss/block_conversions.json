@@ -2,9 +2,9 @@
   "minecraft:grass_block": "minecraft:moss_block",
 
   "minecraft:cobblestone": "minecraft:mossy_cobblestone",
+  "minecraft:cobblestone_stairs": "minecraft:mossy_cobblestone_stairs",
   "minecraft:cobblestone_slab": "minecraft:mossy_cobblestone_slab",
   "minecraft:cobblestone_wall": "minecraft:mossy_cobblestone_wall",
-  "minecraft:cobblestone_stairs": "minecraft:mossy_cobblestone_stairs",
 
   "minecraft:stone_bricks": "minecraft:mossy_stone_bricks",
   "minecraft:stone_brick_stairs": "minecraft:mossy_stone_brick_stairs",
@@ -13,7 +13,12 @@
 
   "minecraft:deepslate": "moremoss:mossy_deepslate",
   "minecraft:cobbled_deepslate": "moremoss:mossy_cobbled_deepslate",
+  "minecraft:cobbled_deepslate_stairs": "moremoss:mossy_cobbled_deepslate_stairs",
   "minecraft:cobbled_deepslate_slab": "moremoss:mossy_cobbled_deepslate_slab",
   "minecraft:cobbled_deepslate_wall": "moremoss:mossy_cobbled_deepslate_wall",
-  "minecraft:cobbled_deepslate_stairs": "moremoss:mossy_cobbled_deepslate_stairs"
+
+  "minecraft:bricks": "moremoss:mossy_bricks",
+  "minecraft:brick_stairs": "moremoss:mossy_brick_stairs",
+  "minecraft:brick_slab": "moremoss:mossy_brick_slab",
+  "minecraft:brick_wall": "moremoss:mossy_brick_wall"
 }

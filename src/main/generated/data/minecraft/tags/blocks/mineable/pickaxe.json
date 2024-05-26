@@ -3,8 +3,12 @@
   "values": [
     "moremoss:mossy_deepslate",
     "moremoss:mossy_cobbled_deepslate",
+    "moremoss:mossy_cobbled_deepslate_stairs",
     "moremoss:mossy_cobbled_deepslate_slab",
     "moremoss:mossy_cobbled_deepslate_wall",
-    "moremoss:mossy_cobbled_deepslate_stairs"
+    "moremoss:mossy_bricks",
+    "moremoss:mossy_brick_stair",
+    "moremoss:mossy_brick_slab",
+    "moremoss:mossy_brick_wall"
   ]
 }

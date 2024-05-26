@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "moremoss:block/mossy_brick_slab"
+    },
+    "type=double": {
+      "model": "moremoss:block/mossy_bricks"
+    },
+    "type=top": {
+      "model": "moremoss:block/mossy_brick_slab_top"
+    }
+  }
+}

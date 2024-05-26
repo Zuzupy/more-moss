@@ -2,7 +2,11 @@
   "item.moremoss.moss_ball": "Moss Ball",
   "block.moremoss.mossy_deepslate": "Mossy Deepslate",
   "block.moremoss.mossy_cobbled_deepslate": "Mossy Cobbled Deepslate",
+  "block.moremoss.mossy_cobbled_deepslate_stairs": "Mossy Cobbled Deepslate Stairs",
   "block.moremoss.mossy_cobbled_deepslate_slab": "Mossy Cobbled Deepslate Slab",
   "block.moremoss.mossy_cobbled_deepslate_wall": "Mossy Cobbled Deepslate Wall",
-  "block.moremoss.mossy_cobbled_deepslate_stairs": "Mossy Cobbled Deepslate Stairs"
+  "block.moremoss.mossy_bricks": "Mossy Bricks",
+  "block.moremoss.mossy_bricks_stairs": "Mossy Brick Stairs",
+  "block.moremoss.mossy_bricks_slab": "Mossy Brick Slab",
+  "block.moremoss.mossy_bricks_wall": "Mossy Brick Wall"
 }
