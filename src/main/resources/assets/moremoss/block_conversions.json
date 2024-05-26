@@ -13,5 +13,7 @@
 
   "minecraft:deepslate": "moremoss:mossy_deepslate",
   "minecraft:cobbled_deepslate": "moremoss:mossy_cobbled_deepslate",
-  "minecraft:cobbled_deepslate_slab": "moremoss:mossy_cobbled_deepslate_slab"
+  "minecraft:cobbled_deepslate_slab": "moremoss:mossy_cobbled_deepslate_slab",
+  "minecraft:cobbled_deepslate_wall": "moremoss:mossy_cobbled_deepslate_wall",
+  "minecraft:cobbled_deepslate_stairs": "moremoss:mossy_cobbled_deepslate_stairs"
 }

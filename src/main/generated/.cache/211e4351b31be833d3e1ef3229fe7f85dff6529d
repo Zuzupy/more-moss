@@ -1,0 +1,4 @@
+// 1.20.4	2024-05-25T22:15:45.475766231	More Moss/Tags for minecraft:block
+9e99c23e5b6cb9d4e501b48f736426d019b487c3 data/minecraft/tags/blocks/slabs.json
+c91c9941fc3e18e5fa98514e2a67d8469785dc1b data/minecraft/tags/blocks/walls.json
+d460649cc7be1c679b8a0d3d3f03bbd482a18310 data/minecraft/tags/blocks/mineable/pickaxe.json
